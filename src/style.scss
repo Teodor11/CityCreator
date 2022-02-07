@@ -1,0 +1,71 @@
+$fonts: "Open Sans", "Noto Sans JP", '-apple-system', 'BlinkMacSystemFont',
+        'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+
+body 
+{
+    background-color: #96d4ff;
+    box-sizing: border-box;
+    font-family: $fonts;
+    margin: 0;
+    min-height: 100vh;
+    padding: 1em;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#options {
+
+    max-width: 200px;
+
+    div {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 5em 7em;
+        margin: 0.2em 0;
+        width: 100%;
+
+        input {
+            font-family: $fonts;
+            font-size: 1em;
+        }
+    }
+
+    button {
+        font-family: $fonts;
+        font-size: 1em;
+        width: 100%;
+    }
+}
+
+#result {
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-top: 1em;
+    width: max-content;
+
+    .result_row {
+        display: flex;
+    }
+
+    .result_tile {
+        height: 90px;
+        width: 90px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+
+}
