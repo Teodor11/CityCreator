@@ -15,7 +15,7 @@ export type Tile = {
     bottom: boolean,
     left: boolean,
     right: boolean,
-    frequency?: number,
+    frequency?: Array<number>,
     image: string,
     rotate: 0 | 90 | 180 | 270,
 };
